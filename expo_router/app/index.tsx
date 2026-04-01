@@ -11,6 +11,7 @@ export default function Home() {
       <Link href="/products/best-sellers/playstation-5">PlayStation 5 (Best Sellers)</Link>
       <Link href="/products/deals/black-friday/playstation-5">PlayStation 5 (Deals)</Link>
       <Link href="/products/search/playstation-5">PlayStation 5 (Search)</Link>
+      <Link href="/missing-route">Missing Route</Link>
     </View>
   );
 }
