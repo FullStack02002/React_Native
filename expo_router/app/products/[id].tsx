@@ -6,7 +6,7 @@ export default function ProductDetails() {
     const { id } = useLocalSearchParams();
     return (
         <>
-        <Stack.Screen options={{ title: `Product ${id}` }} />
+            <Stack.Screen options={{ title: `Product ${id}` }} />
             <View style={styles.container}>
                 <Text>Details of Product id {id}</Text>
             </View>

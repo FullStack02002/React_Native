@@ -11,10 +11,10 @@ export default function index() {
 
             <View style={styles.container}>
                 <Text>Products</Text>
-                <Link href="/products/1">Product 1</Link>
-                <Link href="/products/2">Product 2</Link>
-                <Link href="/products/3">Product 3</Link>
-                <Link href="/products/4">Product 4</Link>
+                <Link href="./1" relativeToDirectory>Product 1</Link>
+                <Link href="./2" relativeToDirectory>Product 2</Link>
+                <Link href="./3" relativeToDirectory>Product 3</Link>
+                <Link href="./4" relativeToDirectory>Product 4</Link>
             </View>
         </>
     )
